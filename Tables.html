@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+body{
+    background-image:linear-gradient(to right, rgb(227, 107, 213), rgb(139, 53, 139)) ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+table {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-spacing: 0;
+    overflow: hidden;
+    width: 500px;
+}
+
+thead {
+    background-color: blueviolet;
+}
+
+th {
+    padding: 5px 10px;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+tbody {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+background-color: rgba(128, 128, 128, 0.432);
+}
+
+td {
+    font-size: 10px ;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>HTML TABLE</h1>
+    <table >
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Fullname</th>
+                <th>E-mail address</th>
+                <th>Phone number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Precious</td>
+                <td>precious@gmail.com</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Taiwo</td>
+                <td>taiwo@gmail.com</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Brown</td>
+                <td>brown@gmail.com</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Toyin</td>
+                <td>toyin@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+            <tr>
+                <td>5</td>
+                <td>Damola</td>
+                <td>damola@gmail.com</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Akinwale</td>
+                <td>toyin@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+            <tr>
+                <td>7</td>
+                <td>Theophilus</td>
+                <td>theophilus@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+            <tr>
+                <td>8</td>
+                <td>Waliyah</td>
+                <td>waliyah@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+            <tr>
+                <td>9</td>
+                <td>Adetoun</td>
+                <td>adetoun@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+            <tr>
+                <td>10</td>
+                <td>Olanrewaju</td>
+                <td>olanrewaju@gmail.com</td>
+                <td>0987654321</td>
+            </tr> 
+        </tbody>
+    </table>
+</body>
+</html>

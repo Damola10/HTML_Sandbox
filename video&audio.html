@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      audio {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+
+    <audio controls>
+      <source src="media/htmedia.mp3" type="audio/mp3"/> 
+      <p>
+        Download <a href="media/htmedia.mp3">mp3</a>audio
+      </p>
+    </audio>
+
+    <h1>Basic Video Embed</h1>
+    <video controls width="720px"  height="360px" muted>
+      <source src="media/video.mp4" type="video/mp4"/>
+      <source src="media/video.webm" type="video/webm"/>
+      <track kind="subtitles" src="media/subtitle_en.vtt" srclang="en" label="english"/>
+    </video>
+    <h1>Pdf embed here</h1> <hr>
+    <object data="media/mypdf.pdf" type="application/pdf"></object width="300px" height=300px>
+
+<h1>This is an  embedded video</h1>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/ZR9Svm0eksQ" title="Reign with your Brain- Bishop David O. Oyedepo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+  </body>
+
+</html>
